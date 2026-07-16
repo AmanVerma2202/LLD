@@ -24,8 +24,13 @@ class User{
     cout<<"saved to db!";
   }
 
+  void delete_user_from_database(){
+    cout<<"user deleted from db!";
+  }
+
 
 };
+
 
 
 int main(){
