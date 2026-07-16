@@ -42,7 +42,7 @@ public:
 };
 
 int main() {
-    User user("aman", 21, "aman@gmail.com");
+    User user("aman verma", 21, "aman@gmail.com");
 
     UserProfile::printInfo(user);
     cout << "Is adult? " << (UserValidator::isAdult(user) ? "yes" : "no") << "\n";
