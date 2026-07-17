@@ -28,7 +28,6 @@ class User{
     cout<<"user deleted from db!";
   }
 
-
 };
 
 
